@@ -14,7 +14,7 @@ const Selector = () => {
         <section>
             <h2>element Selector</h2>
             <p>p, h1, input etc</p> 
-            <Link to="" className='githubLinkButton'><GitHubIcon/>View Code on Github</Link>
+            <a href="https://github.com/dev-ashik/css-note/blob/main/src/Components/Selector/Code/style.css" className='githubLinkButton'><GitHubIcon/>View Code on Github</a>
         </section>
         <hr />
 
