@@ -1,4 +1,29 @@
-/* for paragraph element */
+  /* element Selector */
 p {
-    color: lightsalmon;
+    color: black;
   }
+
+  /* id Selector */
+#my_id {
+  color: black;
+}
+
+  /* class Selector */
+.my_class {
+  color: black;
+}
+
+/* In this example only <p> elements with class="center" will be red */
+p.my_class {
+  color: black;
+}
+
+  /* Universal Selector */
+*{
+  color: black;
+}
+
+/* Grouping Selector */
+h1, p, small {
+  color: black;
+}

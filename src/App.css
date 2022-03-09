@@ -1,9 +1,96 @@
 .githubLinkButton {
   text-decoration: none;
-  background-color: tomato;
+  color: white;
   padding: 10px 10px;
   display: flex;
-  width: 200px;
+  width: 250px;
   border-radius: 5px;
-  box-shadow: 1px 1px 10px lightgray;
+  text-transform: uppercase;
+  transition: 0.5s;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background-image: linear-gradient(to right, #77A1D3 0%, #1BC0E4  51%, #77A1D3  100%)
+  
+}
+
+.githubLinkButton:hover {
+  background-position: right center;
+  color: rgb(223, 215, 215);
+  text-decoration: none;
+}
+
+.name {
+  border-bottom: 2px solid #1BC0E4;
+  text-align: center;
+  color: #1BC0E4;
+  margin-bottom: 10px;
+}
+
+.section {
+  border: 2px solid #684C79;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: 23px;
+}
+
+.codeDiv {
+  background-color: #242831;
+  border-top: 5px solid #3d4352;
+  margin: 10px 0;
+  padding: 10px;
+  min-height: 100px;
+}
+.codeRunDiv {
+  background-color: #39475a;
+  border-top: 5px solid  #723B5D;
+  margin: 10px 0;
+  padding: 10px;
+  min-height: 100px;
+}
+
+.cssComment {
+  color: #13a55a;
+  /* color: #19c26a; */
+  
+}
+.seclector {
+  color: #D7BA7D;
+}
+.cssName {
+  color: #9CDCFE;
+}
+.cssTextvalue {
+  color: #CE8349;
+}
+.cssNumberValue {
+  color: CE8349;
+}
+.codeColorComment {
+  color: rgb(126, 114, 114);
+}
+.htmlAttribute {
+  color: #19c26a;
+}
+.htmlElement {
+  color: #b94c9e;
+  /* color: #7c496f; */
+}
+.htmlAttributeValue {
+  /* color: #ecf58a; */
+  color: #cbd36f;
+}
+.codeColor4 {
+  color: #a783dc;
+}
+.codeColorWhite {
+  color: white;
+}
+.codeColorComment {
+  color: rgb(126, 114, 114);
 }

@@ -1,14 +1,10 @@
 import React from 'react';
-import ListItem from '@mui/material/ListItem';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
 import HomeIcon from '@mui/icons-material/Home';
 import { Link } from "react-router-dom";
 import styles from './Sidebar.module.css';
 import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
 import PanToolAltIcon from '@mui/icons-material/PanToolAlt';
+import AddCardIcon from '@mui/icons-material/AddCard';
 
 const Sidebar = () => {
     return (
@@ -16,6 +12,11 @@ const Sidebar = () => {
             <Link to="/" className={styles.link}>
                 <HomeIcon className={styles.linkIcon}/>
                 <span className={styles.linkName}>Welcome</span>
+            </Link>
+
+            <Link to="/addcss" className={styles.link}>
+                <AddCardIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Add CSS</span>
             </Link>
 
             <Link to="/selector" className={styles.link}>

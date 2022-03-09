@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home';
 import Selector from './Components/Selector/Selector';
+import Addcss from './Components/Addcss/Addcss';
 
 function App() {
   return (
@@ -15,8 +16,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/"  element={<Home/>} />
-          <Route path="test"  element={<Test/>} />
+          <Route path="addcss"  element={<Addcss/>} />
           <Route path="selector"  element={<Selector/>} />
+
+
+          
+          <Route path="test"  element={<Test/>} />
         </Routes>
       </BrowserRouter>,
     </div>

@@ -6,7 +6,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 import MuiAppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import List from '@mui/material/List';
-import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -14,6 +13,7 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import Sidebar from '../Sidebar/Sidebar';
 import Navber from '../Navber/Navber';
+import styles from './Layout.module.css';
 
 
 const drawerWidth = 240;
@@ -61,6 +61,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   // necessary for content to be below app bar
   ...theme.mixins.toolbar,
   justifyContent: 'flex-end',
+  color: 'white',
 }));
 
 const Layout = ({children}) => {
@@ -78,7 +79,7 @@ const Layout = ({children}) => {
     return (
         <Box sx={{ display: 'flex' }}>
         <CssBaseline />
-        <AppBar position="fixed" open={open}>
+        <AppBar className={styles.navber} position="fixed" open={open}>
             <Toolbar>
             <IconButton
                 color="inherit"
@@ -108,17 +109,18 @@ const Layout = ({children}) => {
             anchor="left"
             open={open}
         >
-            <DrawerHeader>
+            <DrawerHeader className={styles.drowerTop}>
             <IconButton onClick={handleDrawerClose}>
                 {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
             </IconButton>
             </DrawerHeader>
             <Divider />
-            <List>
+            <List className={styles.sidebar}>
+                {/****** Side Bar ******/}
                 <Sidebar/>
             </List>
         </Drawer>
-        <Main open={open}>
+        <Main open={open} className={styles.body}>
             <DrawerHeader />
             <section>
                 {
