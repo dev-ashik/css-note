@@ -64,15 +64,16 @@ const Selector = () => {
                         <p>&#60;<span className='htmlElement'>p</span> <span className='htmlAttribute'>class</span>=<span className='htmlAttributeValue'>"my_class"</span>&#62; This is first paragraph. &#60;<span className='htmlElement'>/p</span>&#62; </p>
                         <span className='cssComment'>&#47;* In this example only &#60;p&#62; elements with class="center" will be red *&#47;</span><br />
                         <span className='seclector'>p.my_class</span> &#123; <br />
-                            &nbsp;&nbsp;<span className='cssName'>color</span>: <span className='cssTextvalue'>black</span>;<br />
+                            &nbsp;&nbsp;<span className='cssName'>color</span>: <span className='cssTextvalue'>lightsalmon</span>;<br />
                         &#125;
                     </code>
                     <br /><br />
-                    <button className='githubLinkButton' onClick={()=>setClassSelector(!classSelector)}>output</button>
+                    {
+                        classSelector && <button className='seeCodeButton' onClick={()=>setClassSelector(!classSelector)}>output</button>
+                    }
                 </div>
                 <div className={`codeRunDiv`} style={{display: classSelector}}>
                     <p style={{color: "lightsalmon"}}>This is first paragraph.</p>
-                    <p>This is second Paragraph.</p>
                 </div>
                 <a href="https://github.com/dev-ashik/css-note/blob/main/src/Components/Selector/Code/style.css" className='githubLinkButton' target="_blank"><GitHubIcon />View Code on Github</a>
             </section>

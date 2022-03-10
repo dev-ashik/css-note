@@ -1,0 +1,41 @@
+.opacityrunDiv {
+    display: flex;
+    color: black;
+    background-image: url("../../../images/weav.jpg");
+}
+
+.firtDiv {
+    background-color: blue;
+    opacity: 1;
+    padding: 40px;
+    border: 3px solid rgb(0, 255, 76);
+}
+.secondDiv {
+    background-color: blue;
+    opacity: 0.5;
+    padding: 40px;
+    border: 3px solid rgb(0, 255, 76);
+}
+.thirdDiv {
+    background-color: blue;
+    opacity: 0.1;
+    padding: 40px;
+    border: 3px solid rgb(0, 255, 76);  
+}
+
+.firtRgbaDiv {
+    background-color: rgba(0, 128, 0, 1);
+    padding: 40px;
+    color: white;
+}
+
+.seconRgbaDiv {
+    background-color: rgba(0, 128, 0, 0.5);
+    padding: 40px;
+    color: white;
+}
+.thirdRgbaDiv {
+    background-color: rgba(0, 128, 0, 0.1);
+    padding: 40px;
+    color: white;
+}

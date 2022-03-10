@@ -15,7 +15,24 @@
   
 }
 
-.githubLinkButton:hover {
+.seeCodeButton {
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  display: flex;
+  width: 200px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background-image: linear-gradient(to right, #106b80  51%, #1f3e63  100%)
+  
+}
+
+.githubLinkButton:hover, .seeCodeButton:hover {
   background-position: right center;
   color: rgb(223, 215, 215);
   text-decoration: none;
@@ -71,25 +88,28 @@
 .cssNumberValue {
   color: CE8349;
 }
-.codeColorComment {
-  color: rgb(126, 114, 114);
-}
-.htmlAttribute {
-  color: #19c26a;
-}
+
 .htmlElement {
   color: #b94c9e;
   /* color: #7c496f; */
+}
+.htmlAttribute {
+  color: #19c26a;
 }
 .htmlAttributeValue {
   /* color: #ecf58a; */
   color: #cbd36f;
 }
+
+
 .codeColor4 {
   color: #a783dc;
 }
 .codeColorWhite {
   color: white;
+}
+.codeColorComment {
+  color: rgb(126, 114, 114);
 }
 .codeColorComment {
   color: rgb(126, 114, 114);
