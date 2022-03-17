@@ -1,0 +1,100 @@
+.marginAllside {
+    border: 1px solid red;
+    margin: 100px;
+}
+
+.marginTwoValue {
+    border: 1px solid red;
+    margin: 50px 100px;
+}
+.marginThreeValue {
+    border: 1px solid red;
+    margin: 50px 150px 80px;
+}
+.marginFourValue {
+    border: 1px solid red;
+    margin: 50px 80px 120px 150px;
+}
+
+.marginIndividualSidesOne {
+    margin-top: 50px;
+    border: thin solid red;
+}
+.marginIndividualSidesTwo {
+    margin-right: 200px;
+    border: thin solid green;
+}
+.marginIndividualSidesThree {
+    margin-bottom: 80px;
+    border: thin solid blue;
+}
+.marginIndividualSidesFour {
+    margin-left: 50px;
+    border: thin solid yellow;
+}
+
+.marginValueLength_p {
+    background-color: gray;
+    border: 2px solid green;
+}
+
+.marginValueLength {
+    margin: 5px;
+    border: 1px solid red;
+}
+.marginValueLengthPt {
+    margin: 5pt;
+    border: 1px solid red;
+}
+
+.marginValueLengthCm {
+    margin: 5cm;
+    border: 1px solid red;
+}
+
+.marginValuepersentone {
+    margin: 2%;
+    border: 1px solid red;
+}
+.marginValuepersenttwo {
+    margin: 5%;
+    border: 1px solid red;
+}
+
+.marginValueAutoOne {
+    margin: auto;
+    width: 200px;
+    border: 3px solid red;
+}
+
+.marginValueAutoTwo {
+    margin: auto;
+    border: 1px solid red;
+}
+
+.marginValueLeftAuto {
+    margin-left: auto;
+    width: 200px;
+    border: 3px solid red;
+}
+.marginValueRightAuto {
+    margin-right: auto;
+    width: 200px;
+    border: 3px solid red;
+}
+
+.marginValueInherit {
+    border: 2px solid;
+    background-color: gray;
+}
+
+.marginValueInherit_p {
+    border: 2px solid;
+    background-color: rgb(170, 169, 169);
+    margin: 20px;
+}
+
+.marginValueInheritOne {
+    border: 1px solid red;
+    margin: inherit;
+}

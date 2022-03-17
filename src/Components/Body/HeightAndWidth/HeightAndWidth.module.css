@@ -1,0 +1,54 @@
+.heightAndWidth {
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+    color: black;
+}
+
+.heightAndWidthLengthValue {
+    background-color: rgb(150, 149, 149);
+    height: 8cm;
+    width: 8cm;
+    color: black;
+}
+
+.heightAndWidthAuto {
+    background-color: gray;
+    height: auto;
+    width: auto;
+    color: black;
+}
+.heightAndWidthPercent {
+    background-color: gray;
+    height: 300px;
+    width: 50%;
+    color: black;
+}
+
+.heightAndWidthInitial {
+    background-color: gray;
+    height: initial;
+    width: initial;
+    color: black;
+}
+
+.heightAndWidthInherit_p {
+    background-image: url('../../../images/weav.jpg');
+    height: 300px;
+    width: 300px;
+    border:  thick dotted rgb(192, 1, 1);
+    color: black;
+}
+
+.heightAndWidthInherit_c {
+    background-color: rgba(23, 187, 23, 0.678);
+    height: inherit;
+    width: inherit;
+    border:  thick solid rgba(212, 216, 5, 0.411);
+    color: black;
+}
+
+.max_width {
+    background-color: rgb(99, 116, 116);
+    max-width: 400px;
+}

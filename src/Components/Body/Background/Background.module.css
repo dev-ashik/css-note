@@ -39,3 +39,61 @@
     padding: 40px;
     color: white;
 }
+
+.backgroundImageRepeat {
+    background-image: url("../../../images/weav3.jpg");
+    height: 500px;
+}
+
+.bgr1 {
+    background-repeat: repeat-x;
+}
+.bgr2 {
+    background-repeat: repeat-y;
+}
+.bgr3 {
+    background-repeat: no-repeat;
+}
+.bgr12 {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bgr4 {
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.bgr5 {
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.bgr6 {
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bgr7 {
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.bgr8 {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.bgr9 {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+.bgr10 {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: scroll;
+}
+.bgr11 {
+    height: 500px;
+    background-color: #8b7878;
+    background-image: url('../../../images/weav3.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+}

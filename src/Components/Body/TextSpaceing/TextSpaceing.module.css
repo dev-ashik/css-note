@@ -1,0 +1,31 @@
+.firstP {
+    text-indent: 50px;
+}
+.secondP {
+    text-indent: 100px;
+}
+
+.p_one {
+    letter-spacing: 5px;
+}
+
+.p_two {
+    letter-spacing: -2px;
+}
+
+.p_a {
+    line-height: 0.8;
+}
+.p_b {
+    line-height: 1.8;
+}
+.p_c {
+    word-spacing: 10px;
+}
+.p_d {
+    word-spacing: -4px;
+}
+
+.withWhiteSpace {
+    white-space: nowrap;
+}

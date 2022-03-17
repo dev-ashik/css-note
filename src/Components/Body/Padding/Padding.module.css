@@ -1,0 +1,79 @@
+.addPadding {
+    border: thin solid red;
+    padding: 50px;
+}
+
+.addPaddingTwoValue {
+    border: thin solid red;
+    padding: 50px 100px;
+}
+
+.addPaddingThreeValue {
+    border: thin solid red;
+    padding: 50px 150px 80px;
+}
+
+.addPaddingFourValue {
+    border: thin solid red;
+    padding: 20px 50px 80px 100px;
+}
+
+.addPadding_top {
+    border: medium solid green;
+    padding-top: 50px;
+}
+.addPadding_right {
+    border: medium solid green;
+    padding-right: 50px;
+}
+.addPadding_bottom {
+    border: medium solid green;
+    padding-bottom: 50px;
+}
+.addPadding_left {
+    border: medium solid green;
+    padding-left: 50px;
+}
+
+.addPadding_lengthvalueOne {
+    border: medium solid blue;
+    padding: 20px;
+}
+.addPadding_lengthvalueTwo {
+    border: medium solid blue;
+    padding: 50px;
+}
+
+.addPadding_lengthvaluePercentOne {
+    border: medium solid green;
+    padding: 10%;
+}
+
+.addPadding_p {
+    background: gray;
+    padding: 50px;
+}
+
+.addPadding_chield {
+    background: rgb(150, 149, 149);
+    padding: inherit;
+}
+
+.addStyle {
+    width: 300px;
+    text-align: center;
+    background-color: rgb(196, 6, 6);
+}
+
+.addPaddingAndWidthOne {
+    width: 300px;
+    padding: 30px;
+    background-color: rgb(55, 177, 6);
+}
+.addPaddingAndWidthTwo {
+    width: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgb(55, 177, 6);
+
+}

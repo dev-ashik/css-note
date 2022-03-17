@@ -1,0 +1,79 @@
+.outline {
+    outline: 10px solid #8d0202;
+    border: 10px solid #017701;
+}
+
+.outline_dotted {
+    border: 10px solid green;
+    outline: 5px dotted red;
+}
+.outline_dashed {
+    border: 10px solid green;
+    outline: 5px dashed red;
+}
+.outline_solid {
+    border: 10px solid green;
+    outline: 5px solid red;
+}
+.outline_double {
+    border: 10px solid green;
+    outline: 5px double red;
+}
+.outline_groove {
+    border: 10px solid green;
+    outline: 5px groove red;
+}
+.outline_ridge {
+    border: 10px solid green;
+    outline: 5px ridge red;
+}
+.outline_inset {
+    border: 10px solid green;
+    outline: 5px inset red;
+}
+.outline_outset {
+    border: 10px solid green;
+    outline: 5px outset red;
+}
+
+.outline_thinWidth {
+    outline: solid red;
+    outline-width: thin;
+}
+.outline_mediumWidth {
+    outline: solid red;
+    outline-width: medium;
+}
+.outline_thickWidth {
+    outline: solid red;
+    outline-width: thick;
+}
+.outline_lengthWidth {
+    outline: solid red;
+    outline-width: 10px;
+}
+
+.pStyle { 
+    background-color: #969687;
+}
+
+.outline_overlap {
+    outline: 20px solid red;
+}
+
+.firstColor {
+    outline: 10px solid ;
+    outline-color: blueviolet;
+}
+
+.secondColor {
+    outline: 10px solid ;
+    outline-color: burlywood;
+}
+
+.outlineOffset {
+    background-color: #5a5a4e;
+    border: 5px solid green;
+    outline: 5px solid red;
+    outline-offset: 5px;
+}

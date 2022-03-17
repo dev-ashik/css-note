@@ -1,0 +1,147 @@
+.element {
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.elementBorder {
+    padding: 10px;
+    border-color: green;
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+.borderStyleDotted {
+    padding: 10px;
+    border: 2px dotted red;
+}
+.borderStyleDashed {
+    padding: 10px;
+    border: 2px dashed red;
+}
+.borderStyleSolid {
+    padding: 10px;
+    border: 2px solid red;
+}
+.borderStyleDouble {
+    padding: 10px;
+    border: 5px double red;
+}
+.borderStylegroove {
+    padding: 10px;
+    border: 5px groove red;
+}
+.borderStyleridge {
+    padding: 10px;
+    border: 5px ridge red;
+}
+.borderStyleinset {
+    padding: 10px;
+    border: 5px inset red;
+}
+.borderStyleoutset {
+    padding: 10px;
+    border: 5px outset red;
+}
+.borderStylenone {
+    padding: 10px;
+    border: none;
+}
+.borderStylehidden {
+    padding: 10px;
+    border: hidden;
+}
+
+.borderStyleMixed {
+    padding: 10px;
+    border-color: red;
+    border-width: 5px;
+    border-style: dotted dashed solid double;
+}
+.borderStyleMixedThreeValue {
+    padding: 10px;
+    border-color: red;
+    border-width: 5px;
+    border-style: dotted dashed solid;
+}
+.borderTopStyle {
+    padding: 10px;
+    border-color: blue;
+    border-width: 5px;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: double;
+}
+
+.borderTop {
+    border-top: 5px solid red;
+    padding-left: 10px;
+}
+
+.borderRihgt {
+    border-right: 5px dashed red;
+    padding: 10px;
+}
+
+.borderBottom {
+    border-bottom: 5px groove red;
+    padding: 10px;
+}
+
+.borderLeft {
+    border-left: 5px double red;
+    padding: 10px;
+}
+
+.borderPx {
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.borderThin {
+    border: thin solid red;
+    padding: 10px;
+}
+
+.borderMedium {
+    border: medium solid blue;
+    padding: 10px;
+}
+.borderThick {
+    border-style: solid;
+    border-color: green;
+    /* border: thick solid red; */
+    border-width: thick;
+    padding: 10px;
+}
+
+.borderTwoValue {
+    border-style: solid;
+    border-color: green;
+    border-width: 20px 5px;
+    padding: 10px;
+}
+
+.borderFourValue {
+    border-style: solid;
+    border-color: green;
+    border-width: 3px 20px 10px 40px;
+    padding: 10px;
+}
+
+.borderRoundOne {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+.borderRoundTwo {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
+.borderRoundThree {
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 10px;
+}

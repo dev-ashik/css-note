@@ -1,0 +1,149 @@
+.fistText {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 8px;
+}
+
+.secondText {
+    text-decoration: underline red wavy 8px;
+}
+
+.thirdText {
+    text-decoration: none;
+}
+
+.thirdText:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.thirdText:visited {
+    color: rgb(93, 102, 179);
+    text-decoration: none;
+}
+
+
+
+.p_b {
+    text-decoration-line: overline;
+}
+
+.p_a {
+    text-decoration-line: line-through;
+}
+
+.p_c {
+    text-decoration-line: underline;
+}
+
+.p_d {
+    text-decoration-line: overline underline;
+}
+.p_e {
+    text-decoration-line: overline;
+    text-decoration-color: red;
+}
+
+.p_f {
+    text-decoration-line: line-through;
+    text-decoration-color: blue;
+}
+
+.p_g {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+}
+
+.p_h {
+    text-decoration-line: overline underline;
+    text-decoration-color: green;
+}
+.p_i {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: solid;
+}
+
+.p_j {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: double;
+}
+
+.p_k {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: dotted;
+}
+
+.p_l {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: dashed;
+
+}
+.p_m {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: wavy;
+}
+
+.p_n {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+}
+.p_o {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+}
+.p_p {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: solid;
+    text-decoration-thickness: 50%;
+}
+.p_q {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: solid;
+}
+.p_r {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: solid;
+}
+
+
+.text_a {
+    text-shadow: 2px 2px;
+}
+.text_b {
+    text-shadow: 2px 2px red;
+}
+.text_c {
+    text-shadow: 2px 2px 5px red;
+}
+
+
+
+.text_d {
+    color: #39475a;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+.text_e {
+    color: black;
+    text-shadow: 0 0 3px #FF0000;
+}
+.text_f {
+    color: black;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.text_g {
+    color: #39475a;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}

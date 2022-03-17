@@ -1,0 +1,87 @@
+.redColor {
+    color: red;
+}
+.greenColor {
+    color: green;
+}
+
+.textAlign_right {
+    text-align: right;
+}
+.textAlign_center {
+    text-align: center;
+}
+.textAlign_left {
+    text-align: left;
+}
+
+.textAlign_justify {
+    text-align: justify;
+    width: 300px;
+    border: 3px solid rgb(108, 22, 189);
+    padding: 10px;
+}
+.textAlign_l {
+    text-align: left;
+    width: 300px;
+    border: 3px solid rgb(108, 22, 189);
+    padding: 10px;
+}
+
+.TextAlignLast_justify {
+    text-align-last: justify;
+    width: 300px;
+    border: 3px solid rgb(108, 22, 189);
+    padding: 10px;
+}
+.TextAlignLast_right {
+    text-align-last: right;
+    width: 300px;
+    border: 3px solid rgb(108, 22, 189);
+    padding: 10px;
+}
+.TextAlignLast_center {
+    text-align-last: center;
+    width: 300px;
+    border: 3px solid rgb(108, 22, 189);
+    padding: 10px;
+}
+
+.reverceText {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.verticalAlignment_p {
+    height: 300px;
+    border: 2px solid red;
+}
+
+
+img.a {
+    vertical-align: baseline;
+}
+img.b {
+    vertical-align: text-top;
+}
+img.c {
+    vertical-align: text-bottom;
+}
+img.d {
+    vertical-align: sub;
+}
+img.e {
+    vertical-align: super;
+}
+
+.textUppercase {
+    text-transform: uppercase;
+}
+
+.textLowercase {
+    text-transform: lowercase;
+}
+
+.textCapitalize {
+    text-transform: capitalize;
+}
