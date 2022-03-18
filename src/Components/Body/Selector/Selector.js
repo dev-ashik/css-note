@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Layout from '../Layout/Layout';
 
 import GitHubIcon from '@mui/icons-material/GitHub';
-import '../../App.css';
+import '../../../App.css';
+import Layout from '../../Layout/Layout';
 
 const Selector = () => {
     const [classSelector, setClassSelector] = useState('none')

@@ -1,13 +1,12 @@
 import './App.css';
-import Test from './Components/Test/Test';
+import Test from './Components/Body/Test/Test';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import Home from './Components/Home/Home';
-import Selector from './Components/Selector/Selector';
-import Addcss from './Components/Addcss/Addcss';
+import Home from './Components/Body/Home/Home';
+import Addcss from './Components/Body/Addcss/Addcss';
 import Comments from './Components/Body/Comments/Comments';
 import Colors from './Components/Body/Colors/Colors';
 import Background from './Components/Body/Background/Background';
@@ -20,6 +19,8 @@ import Outline from './Components/Body/Outline/Outline';
 import Text from './Components/Body/Text/Text';
 import TextDecoration from './Components/Body/TextDecoration/TextDecoration';
 import TextSpaceing from './Components/Body/TextSpaceing/TextSpaceing';
+import Selector from './Components/Body/Selector/Selector';
+import Fonts from './Components/Body/Fonts/Fonts';
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
 
           <Route path="comment"  element={<Comments/>} />
           <Route path="colors"  element={<Colors/>} />
+
+          <Route path="fonts"  element={<Fonts/>} />
 
           <Route path="heightandwidth"  element={<HeightAndWidth/>} />
           

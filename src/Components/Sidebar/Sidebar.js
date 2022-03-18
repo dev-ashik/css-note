@@ -15,6 +15,7 @@ import ArchitectureIcon from '@mui/icons-material/Architecture';
 import HeightIcon from '@mui/icons-material/Height';
 import LineWeightIcon from '@mui/icons-material/LineWeight';
 import FormatColorTextIcon from '@mui/icons-material/FormatColorText';
+import FontDownloadIcon from '@mui/icons-material/FontDownload';
 
 const Sidebar = () => {
     return (
@@ -66,7 +67,10 @@ const Sidebar = () => {
 
             {/* E end */}
             {/* F start */}
-
+            <Link to="/fonts" className={styles.link}>
+                <FontDownloadIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Fonts</span>
+            </Link>
             {/* F end */}
             {/* G start */}
 
