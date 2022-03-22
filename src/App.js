@@ -21,6 +21,8 @@ import TextDecoration from './Components/Body/TextDecoration/TextDecoration';
 import TextSpaceing from './Components/Body/TextSpaceing/TextSpaceing';
 import Selector from './Components/Body/Selector/Selector';
 import Fonts from './Components/Body/Fonts/Fonts';
+import FontSize from './Components/Body/Fonts/FontSize';
+import Icons from './Components/Body/Icons/Icons';
 
 function App() {
   return (
@@ -38,8 +40,11 @@ function App() {
           <Route path="colors"  element={<Colors/>} />
 
           <Route path="fonts"  element={<Fonts/>} />
+          <Route path="fontsize"  element={<FontSize/>} />
 
           <Route path="heightandwidth"  element={<HeightAndWidth/>} />
+
+          <Route path="icons"  element={<Icons/>} />
           
           <Route path="margins"  element={<Margins/>} />
           <Route path="mesure"  element={<Mesure/>} />

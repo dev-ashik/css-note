@@ -16,6 +16,8 @@ import HeightIcon from '@mui/icons-material/Height';
 import LineWeightIcon from '@mui/icons-material/LineWeight';
 import FormatColorTextIcon from '@mui/icons-material/FormatColorText';
 import FontDownloadIcon from '@mui/icons-material/FontDownload';
+import FormatSizeIcon from '@mui/icons-material/FormatSize';
+import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
 
 const Sidebar = () => {
     return (
@@ -71,6 +73,10 @@ const Sidebar = () => {
                 <FontDownloadIcon className={styles.linkIcon}/>
                 <span className={styles.linkName}>Fonts</span>
             </Link>
+            <Link to="/fontsize" className={styles.link}>
+                <FormatSizeIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Font Size</span>
+            </Link>
             {/* F end */}
             {/* G start */}
 
@@ -82,7 +88,10 @@ const Sidebar = () => {
             </Link>
             {/* H end */}
             {/* I start */}
-
+            <Link to="/icons" className={styles.link}>
+                <InsertEmoticonIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Ions</span>
+            </Link>
             {/* I end */}
             {/* J start */}
 

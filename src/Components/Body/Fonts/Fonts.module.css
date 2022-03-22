@@ -40,3 +40,99 @@
 .p_c {
     font-family: "Lucida Console", "Courier New", monospace;
 }
+
+.f_arial {
+    font-family: Arial, sans-serif;
+    border-bottom: medium solid rgba(211, 1, 1, 0.719);
+}
+
+.f_verdana {
+    font-family: Verdana, sans-serif;
+    border-bottom: medium solid rgba(211, 1, 1, 0.719);
+}
+
+.f_helvetica {
+    font-family: Arial, sans-serif;
+    border-bottom: medium solid rgba(211, 1, 1, 0.719);
+}
+
+.f_tahoma {
+    font-family: Tahoma, sans-serif;
+    border-bottom: medium solid rgba(211, 1, 1, 0.719);
+}
+
+.f_trebuchet {
+    font-family: 'Trebuchet MS', sans-serif;
+    border-bottom: medium solid rgba(211, 1, 1, 0.719);
+}
+
+.f_timesNewRoman {
+    font-family: 'Times New Roman', serif;
+    border-bottom: medium solid rgba(211, 1, 1, 0.719);
+}
+
+.f_georgia {
+    font-family: Georgia, serif;
+    border-bottom: medium solid rgba(211, 1, 1, 0.719);
+}
+
+.f_garamond {
+    font-family: garamond, serif;
+    border-bottom: medium solid rgba(211, 1, 1, 0.719);
+}
+
+.f_courierNew {
+    font-family: 'Courier New', monospace;
+    border-bottom: medium solid rgba(211, 1, 1, 0.719);
+}
+
+.f_brushScriptMt {
+    font-family: 'brush Script MT';
+}
+
+.smallFont {
+    font-size: 15px;
+}
+
+.f_s_normal {
+    font-style: normal;
+}
+
+.f_s_italic {
+    font-style: italic;
+}
+
+.f_s_oblique {
+    font-style: oblique;
+}
+
+.f_width {
+    font-weight: bold;
+}
+
+
+.f_variant_n {
+    font-family: 'Times New Roman', Times, serif;
+}
+.f_variant {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+
+.fs_px {
+    font-size: 20px;
+}
+.fs_em {
+    font-size: 1em;
+}
+
+.fs_percent {
+    font-size: 100%;
+}
+.fs_vw {
+    font-size: 5vw;
+}
+.fontUse {
+    font: italic small-caps bold 20px/30px Georgia, serif;
+}

@@ -6,6 +6,7 @@ const Mesure = () => {
         <Layout>
             <h1>Mesure</h1>
             px, pt, cm
+            16px = 1em
         </Layout>
     );
 };
