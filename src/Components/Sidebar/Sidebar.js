@@ -21,7 +21,7 @@ import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
 import LinkIcon from '@mui/icons-material/Link';
 import FormatListNumberedIcon from '@mui/icons-material/FormatListNumbered';
 import TableChartIcon from '@mui/icons-material/TableChart';
-
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 const Sidebar = () => {
     return (
@@ -67,7 +67,10 @@ const Sidebar = () => {
             </Link>
             {/* C end */}
             {/* D start */}
-
+            <Link to="/dropdown" className={styles.link}>
+                <ArrowDropDownIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Dropdown</span>
+            </Link>
             {/* D end */}
             {/* E start */}
 

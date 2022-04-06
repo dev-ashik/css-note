@@ -26,6 +26,7 @@ import Icons from './Components/Body/Icons/Icons';
 import Links from './Components/Body/Links/Links';
 import Lists from './Components/Body/Lists/Lists';
 import Tables from './Components/Body/Tables/Tables';
+import DropDown from './Components/Body/DropDown/DropDown';
 
 function App() {
   return (
@@ -41,6 +42,8 @@ function App() {
 
           <Route path="comment"  element={<Comments/>} />
           <Route path="colors"  element={<Colors/>} />
+
+          <Route path="dropdown"  element={<DropDown/>} />
 
           <Route path="fonts"  element={<Fonts/>} />
           <Route path="fontsize"  element={<FontSize/>} />
