@@ -1,0 +1,93 @@
+Positioning Text In an Image
+
+text on Image
+https://www.w3schools.com/css/css_positioning.asp
+
+_____________________________
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+<div class="container">
+  <img src="img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="topleft">Top Left</div>
+</div>
+_________________________________
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+<div class="container">
+  <img src="img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="topright">Top Right</div>
+</div>
+___________________________________
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+<div class="container">
+  <img src="img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="bottomleft">Bottom Left</div>
+</div>
+_____________________________________
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+<div class="container">
+  <img src="img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="bottomright">Bottom Right</div>
+</div>
+_________________________________
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+<div class="container">
+  <img src="img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="center">Centered</div>
+</div>

@@ -1,0 +1,19 @@
+display: none;
+
+display: inline; 
+        block line to inline
+display: block;
+        inline to block line
+
+display: none;
+visibility:hidden;
+    However, the element will still take up the same space as before. The element will be hidden, but still affect the layout:
+
+
+
+display: 
+        inline
+        inline block
+        block
+
+Using inline-block to Create Navigation Links

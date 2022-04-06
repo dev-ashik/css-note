@@ -1,0 +1,32 @@
+1. To remove double borders.
+    table {
+        border-collapse: collapse;
+        }
+
+2. table alignment
+    a. Vertical Alignment (top, bottom, or middle)
+        td {
+            height: 50px;
+            vertical-align: bottom;
+            }
+    
+    b. Hoverable Table
+        Use the :hover selector on <tr> to highlight table rows on mouse over
+    
+    c. Striped Tables
+        For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows.
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+3. Responsive Table
+    Add a container element (like <div>) with overflow-x:auto around the <table> element to make it responsive.
+    
+    <div style="overflow-x:auto;">
+        <table>
+        ... table content ...
+        </table>
+    </div> 
+    
+    Note: In OS X Lion (on Mac), scrollbars are hidden by default and only shown when being used (even though "overflow:scroll" is set).

@@ -1,0 +1,84 @@
+::first-line Pseudo-element
+Note: The ::first-line pseudo-element can only be applied to block-level elements.
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+font properties
+color properties
+background properties
+word-spacing
+letter-spacing
+text-decoration
+vertical-align
+text-transform
+line-height
+clear
+
+
+The ::first-letter Pseudo-element
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+    font properties
+    color properties 
+    background properties
+    margin properties
+    padding properties
+    border properties
+    text-decoration
+    vertical-align (only if "float" is "none")
+    text-transform
+    line-height
+    float
+    clear
+
+Multiple Pseudo-elements
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+p::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+
+
+
+The ::before Pseudo-element
+p::before{
+    content: url("../../../images/weav3.jpg");
+}
+
+
+CSS - The ::after Pseudo-element
+p::after{
+    content: url("../../../images/weav3.jpg");
+}
+
+
+
+CSS - The ::marker Pseudo-element
+The ::marker pseudo-element selects the markers of list items.
+::marker{
+    color: red;
+    font-size: 40px;
+}
+
+
+
+CSS - The ::selection Pseudo-element
+The ::selection pseudo-element matches the portion of an element that is selected by a user.
+The following CSS properties can be applied to ::selection: color, background, cursor, and outline.
+::selection {
+    color: white;
+    background-color: black;
+}
+.select::selection {
+    color: white;
+    background-color: black;
+}

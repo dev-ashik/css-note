@@ -1,0 +1,15 @@
+Transparent Image
+The opacity property can take a value from 0.0 - 1.0. The lower value, the more transparent:
+img{
+    opacity: 0.5;
+}
+
+
+
+Transparent Box
+
+div {
+  opacity: 0.3;
+}
+
+Transparency using RGBA

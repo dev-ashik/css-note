@@ -1,0 +1,79 @@
+.topLists {
+    display: flex;
+}
+
+.topListsUnorderLists {
+    margin-right: 40px;
+}
+
+
+.styleCercle {
+    list-style-type: circle;
+}
+
+.styleSquard {
+    list-style-type: square;
+}
+
+.styleUpperRoman {
+    list-style-type: upper-roman;
+}
+
+.styleLowerRoman {
+    list-style-type: lower-roman;
+}
+
+.styleUpperAlpha {
+    list-style-type: upper-alpha;
+}
+
+.styleLowerAlpha {
+    list-style-type: lower-alpha;
+}
+
+.styleUpperLatin {
+    list-style-type: upper-latin;
+}
+
+.styleLowerLatin {
+    list-style-type: lower-latin;
+}
+
+.ulStyleImage {
+    list-style-image: url('../../../images/smileImoji.png');
+}
+
+.positionOutSide {
+    list-style-position: outside;
+    border: 3px solid green;
+    width: 20%;
+}
+
+.li {
+    border: 3px solid gray;
+    width: 100%;
+}
+
+.positionInSide {
+    list-style-position: inside;
+    border: 3px solid green;
+    width: 20%;
+}
+
+.defaultStyle {
+    border: 3px solid green;
+    width: 20%;
+}
+
+.removeDefaultStyle {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    border: 3px solid green;
+    width: 20%;
+}
+
+.shorthandStyles {
+    list-style: square inside url('../../../images/smileImoji.png');
+}

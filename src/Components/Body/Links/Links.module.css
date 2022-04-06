@@ -1,0 +1,61 @@
+
+.linkStyleOne {
+    color: yellowgreen;
+    margin-bottom: 20px;
+}
+
+.linkStyleTwo {
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: black;
+}
+
+.linkLink, .linkVisited, .linkHover, .linkActive {
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: black;
+}
+
+.linkVisited {
+    color: #838383;
+    background-color: #3a076b;
+}
+
+.linkLink:hover {
+    color: lightgreen;
+}
+
+.linkLink:active {
+    color: white;
+    background-color: aqua;
+}
+
+.linkDecoration {
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: black;
+}
+
+.linkDecoration:hover {
+    text-decoration: underline;
+}
+
+.linkButton, .linkButton:visited {
+    color: red;
+    background-color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.linkButton:hover, .linkButton:active {
+    color: #bdbdbd;
+    background-color: #355735;
+}

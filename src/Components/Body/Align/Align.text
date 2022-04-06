@@ -1,0 +1,85 @@
+center Align
+    1. margin: auto;
+        To horizontally center a block element (like <div>), use margin: auto;
+        Note: Center aligning has no effect if the width property is not set (or set to 100%).
+    2. text-align: center;
+        o just center the text inside an element, use text-align: center;
+    3. Center an Image
+        To center an image, set left and right margin to auto and make it into a block element.
+        img {
+             margin-left: auto;
+             margin-right: auto;
+             display: block;
+         }
+    4. Left and Right Align - Using position
+        .parent {
+             width: 300px;
+             right: 0;
+             position: absolute;
+         }
+    5. Left and Right Align - Using float
+        .parent {
+                width: 300px;
+                float: right;
+            }
+    6. The clearfix Hack
+        .parent {
+             /* width: 300px; */
+             float: left;
+             border: 2px solid blueviolet;
+
+            content: '';
+            clear: both;
+            display: table;
+         }
+
+
+Center Vertically
+    .center {
+        padding: 70px 0;
+        border: 3px solid green;
+    }
+    .center {
+        padding: 70px 0;
+        border: 3px solid green;
+        text-align: center;
+    }
+
+    Center Vertically - Using line-height
+    .center {
+        line-height: 200px;
+        height: 200px;
+        border: 3px solid green;
+        text-align: center;
+    }
+
+    .center p {
+        line-height: 1.5;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    Center Vertically - Using position & transform
+        .center { 
+            height: 200px;
+            position: relative;
+            border: 3px solid green; 
+        }
+
+        .center p {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+    Center Vertically - Using Flexbox
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            border: 3px solid green;
+        }

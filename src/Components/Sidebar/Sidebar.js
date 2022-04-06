@@ -18,6 +18,10 @@ import FormatColorTextIcon from '@mui/icons-material/FormatColorText';
 import FontDownloadIcon from '@mui/icons-material/FontDownload';
 import FormatSizeIcon from '@mui/icons-material/FormatSize';
 import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
+import LinkIcon from '@mui/icons-material/Link';
+import FormatListNumberedIcon from '@mui/icons-material/FormatListNumbered';
+import TableChartIcon from '@mui/icons-material/TableChart';
+
 
 const Sidebar = () => {
     return (
@@ -100,7 +104,14 @@ const Sidebar = () => {
 
             {/* K end */}
             {/* L start */}
-
+            <Link to="/links" className={styles.link}>
+                <LinkIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Links</span>
+            </Link>
+            <Link to="/lists" className={styles.link}>
+                <FormatListNumberedIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Lists</span>
+            </Link>
             {/* L end */}
             {/* M start */}
             <Link to="/margins" className={styles.link}>
@@ -149,6 +160,10 @@ const Sidebar = () => {
             <Link to="/textspaceing" className={styles.link}>
                 <FormatColorTextIcon className={styles.linkIcon}/>
                 <span className={styles.linkName}>Text Spaceing</span>
+            </Link>
+            <Link to="/tables" className={styles.link}>
+                <TableChartIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Tables</span>
             </Link>
             {/* T end */}
             {/* U start */}

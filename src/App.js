@@ -23,6 +23,9 @@ import Selector from './Components/Body/Selector/Selector';
 import Fonts from './Components/Body/Fonts/Fonts';
 import FontSize from './Components/Body/Fonts/FontSize';
 import Icons from './Components/Body/Icons/Icons';
+import Links from './Components/Body/Links/Links';
+import Lists from './Components/Body/Lists/Lists';
+import Tables from './Components/Body/Tables/Tables';
 
 function App() {
   return (
@@ -46,6 +49,9 @@ function App() {
 
           <Route path="icons"  element={<Icons/>} />
           
+          <Route path="links"  element={<Links/>} />
+          <Route path="lists"  element={<Lists/>} />
+
           <Route path="margins"  element={<Margins/>} />
           <Route path="mesure"  element={<Mesure/>} />
 
@@ -58,6 +64,7 @@ function App() {
           <Route path="text"  element={<Text/>} />
           <Route path="textdecoration"  element={<TextDecoration/>} />
           <Route path="textspaceing"  element={<TextSpaceing/>} />
+          <Route path="tables"  element={<Tables/>} />
           
           <Route path="test"  element={<Test/>} />
         </Routes>

@@ -1,0 +1,128 @@
+
+position:
+    1. static
+        static by default.
+    2. relative
+
+    3. fixed
+        Notice the fixed element in the lower-right corner of the page
+    absolute
+    sticky
+
+
+Positioning Text In an Image
+
+
+
+https://www.youtube.com/watch?v=jx5jmI0UlXU
+
+.parent {
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(40, 40, 243);
+}
+.child1, .child2, .child3  {
+    height: 100px;
+}
+
+.child1 {
+    background-color: lightgreen;
+}
+.child2 {
+    background-color: lightcoral;
+}
+.child3 {
+    background-color: rgb(39, 223, 223);
+}
+
+
+
+
+
+.child-one {
+    position: relative;
+    left: 20px;
+    /* top: 20px; */
+}
+.child-two {
+    
+}
+.child-three {
+    
+}
+
+
+
+.child-four {
+    position: absolute;
+    top: 400px;
+}
+.child-five {
+
+}
+.child-six {
+
+}
+
+
+.parent3 {
+    position: relative;
+}
+.child-seven {
+    position: fixed;
+    top: 550px;
+}
+.child-eight {
+
+}
+.child-nine {
+
+}
+
+
+.parent4 {
+    /* position: relative; */
+    height: 1200px;
+}
+.child-ten {
+    position: sticky;
+    top: 50px;
+}
+.child-five {
+
+}
+.child-six {
+
+}
+
+
+
+<div class="parent parent1">
+        parent
+        <div class="child-one child1">One</div>
+        <div class="child-two child2">Two</div>
+        <div class="child-three child3">Three</div>
+    </div>
+
+
+    <div class="parent2 parent">
+        parent
+        <div class="child-four child1">One</div>
+        <div class="child-five child2">Two</div>
+        <div class="child-six child3">Three</div>
+    </div>
+
+    <div class="parent3 parent">
+        parent
+        <div class="child-seven child1">One</div>
+        <div class="child-eight child2">Two</div>
+        <div class="child-nine child3">Three</div>
+    </div>
+
+    <div class="parent4 parent">
+        parent
+        <div class="child-ten child1">One</div>
+        <div class="child-eleven child2">Two</div>
+        <div class="child-twelve child3">Three</div>
+    </div>
