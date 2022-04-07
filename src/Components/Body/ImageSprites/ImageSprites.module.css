@@ -1,0 +1,43 @@
+#yellowStar {
+    height: 100px;
+    width: 100px;
+    background: url(../../../images/stars.png) 0 0;
+}
+
+#blueStar {
+    height: 100px;
+    width: 100px;
+    background: url(../../../images/stars.png) -100px 0;
+}
+
+#grayStar {
+    height: 100px;
+    width: 100px;
+    background: url(../../../images/stars.png) -200px 0;
+}
+
+.imageDiv {
+    border: medium dashed gray;
+    /* display: inline; */
+    width: 115px;
+    padding: 4px;
+    float: left;
+    margin-right: 10px;
+}
+
+.imageDiv p {
+    margin: 0;
+    text-align: center;
+}
+
+.floatClear {
+    content: '';
+    clear: both;
+    display: table;
+
+
+    /* or */
+    /* overflow: auto; */
+
+    margin: 20px 0;
+}

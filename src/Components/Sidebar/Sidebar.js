@@ -22,6 +22,7 @@ import LinkIcon from '@mui/icons-material/Link';
 import FormatListNumberedIcon from '@mui/icons-material/FormatListNumbered';
 import TableChartIcon from '@mui/icons-material/TableChart';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ImageIcon from '@mui/icons-material/Image';
 
 const Sidebar = () => {
     return (
@@ -98,6 +99,14 @@ const Sidebar = () => {
             <Link to="/icons" className={styles.link}>
                 <InsertEmoticonIcon className={styles.linkIcon}/>
                 <span className={styles.linkName}>Ions</span>
+            </Link>
+            <Link to="/image" className={styles.link}>
+                <ImageIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Image</span>
+            </Link>
+            <Link to="/imagesprites" className={styles.link}>
+                <ImageIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Image Sprites</span>
             </Link>
             {/* I end */}
             {/* J start */}

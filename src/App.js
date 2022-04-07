@@ -27,6 +27,8 @@ import Links from './Components/Body/Links/Links';
 import Lists from './Components/Body/Lists/Lists';
 import Tables from './Components/Body/Tables/Tables';
 import DropDown from './Components/Body/DropDown/DropDown';
+import Image from './Components/Body/Image/Image';
+import ImageSprites from './Components/Body/ImageSprites/ImageSprites';
 
 function App() {
   return (
@@ -51,6 +53,8 @@ function App() {
           <Route path="heightandwidth"  element={<HeightAndWidth/>} />
 
           <Route path="icons"  element={<Icons/>} />
+          <Route path="image"  element={<Image/>} />
+          <Route path="imagesprites"  element={<ImageSprites/>} />
           
           <Route path="links"  element={<Links/>} />
           <Route path="lists"  element={<Lists/>} />
