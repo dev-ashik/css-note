@@ -33,7 +33,7 @@
 }
 
 .heightAndWidthInherit_p {
-    background-image: url('../../../images/weav.jpg');
+    background-image: url('../../../../images/weav.jpg');
     height: 300px;
     width: 300px;
     border:  thick dotted rgb(192, 1, 1);

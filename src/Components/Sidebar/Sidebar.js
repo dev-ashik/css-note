@@ -23,6 +23,9 @@ import FormatListNumberedIcon from '@mui/icons-material/FormatListNumbered';
 import TableChartIcon from '@mui/icons-material/TableChart';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ImageIcon from '@mui/icons-material/Image';
+import { Divider } from '@mui/material';
+import AutoAwesomeMotionIcon from '@mui/icons-material/AutoAwesomeMotion';
+import BorderVerticalIcon from '@mui/icons-material/BorderVertical';
 
 const Sidebar = () => {
     return (
@@ -32,20 +35,11 @@ const Sidebar = () => {
                 <span className={styles.linkName}>Welcome</span>
             </Link>
 
-            {/* starting  */}
+            {/* A start */}
             <Link to="/addcss" className={styles.link}>
                 <AddCardIcon className={styles.linkIcon}/>
                 <span className={styles.linkName}>Add CSS</span>
             </Link>
-
-            <Link to="/selector" className={styles.link}>
-                <PanToolAltIcon className={styles.linkIcon}/>
-                <span className={styles.linkName}>Selector</span>
-            </Link>
-            {/* starting End */}
-
-            {/* A start */}
-            
             {/* A end */}
             {/* B start */}
             <Link to="/background" className={styles.link}>
@@ -158,7 +152,10 @@ const Sidebar = () => {
 
             {/* R end */}
             {/* S start */}
-
+            <Link to="/selector" className={styles.link}>
+                <PanToolAltIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Selector</span>
+            </Link>
             {/* S end */}
             {/* T start */}
             <Link to="/text" className={styles.link}>
@@ -200,7 +197,94 @@ const Sidebar = () => {
 
 
 
+            {/* Advanced */}
+            <Divider className={styles.divider}/>
+            {/* A Advanced start */}
 
+            {/* A end */}
+            {/* B Advanced start */}
+            <Link to="/borderimages" className={styles.link}>
+                <BorderVerticalIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Border Images</span>
+            </Link>
+            {/* B end */}
+            {/* C Advanced start */}
+
+            {/* C end */}
+            {/* D Advanced start */}
+
+            {/* D end */}
+            {/* E Advanced start */}
+
+            {/* E end */}
+            {/* F Advanced start */}
+
+            {/* F end */}
+            {/* G Advanced start */}
+
+            {/* G end */}
+            {/* H Advanced start */}
+
+            {/* H end */}
+            {/* I Advanced start */}
+
+            {/* I end */}
+            {/* J Advanced start */}
+
+            {/* J end */}
+            {/* K Advanced start */}
+
+            {/* K end */}
+            {/* L Advanced start */}
+
+            {/* L end */}
+            {/* M Advanced start */}
+            
+            {/* M end */}
+            {/* N Advanced start */}
+
+            {/* N end */}
+            {/* O Advanced start */}
+
+            {/* O end */}
+            {/* P Advanced start */}
+
+            {/* P end */}
+            {/* Q Advanced start */}
+
+            {/* Q end */}
+            {/* R Advanced start */}
+            <Link to="/roundedcorners" className={styles.link}>
+                <AutoAwesomeMotionIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Rounded Corners</span>
+            </Link>
+            {/* R end */}
+            {/* S Advanced start */}
+
+            {/* S end */}
+            {/* T Advanced start */}
+
+            {/* T end */}
+            {/* U Advanced start */}
+
+            {/* U end */}
+            {/* V Advanced start */}
+
+            {/* V end */}
+            {/* W Advanced start */}
+
+            {/* W end */}
+            {/* X Advanced start */}
+
+            {/* X end */}
+            {/* Y Advanced start */}
+
+            {/* Y end */}
+            {/* Z Advanced start */}
+
+            {/* Z end */}
+
+            <Divider className={styles.divider}/>
 
             <Link to="/test" className={styles.link}>
                 <PrecisionManufacturingIcon className={styles.linkIcon}/>

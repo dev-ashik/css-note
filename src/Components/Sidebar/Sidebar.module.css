@@ -20,3 +20,8 @@
     height: 30px !important;
     width: 30px !important;
 }
+
+.divider {
+    background-color: white !important;
+    margin: 10px 0 !important;
+}

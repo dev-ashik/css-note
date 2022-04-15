@@ -1,0 +1,58 @@
+1. Styling Input Fields
+    width: 100%;
+
+    
+    input[type=text] - will only select text fields
+    input[type=password] - will only select password fields
+    input[type=number] - will only select number fields
+    etc..
+
+2. Bordered Inputs
+    input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+    }
+
+3. Colored Inputs
+    background-color: #3CBC8D;
+
+4. Focused Inputs
+    Use the :focus selector to do something with the input field when it gets focus:
+
+    outline: none;
+
+5. Input with icon/image
+
+
+6. Animated Search Input
+
+
+
+
+7. Styling Textareas
+    textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    }
+
+
+8. Styling Select Menus
+    Styling Input Buttons
+
+    input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+9. Responsive Form

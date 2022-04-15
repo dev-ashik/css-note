@@ -1,5 +1,5 @@
 import './App.css';
-import Test from './Components/Body/Test/Test';
+import Test from './Components/Body/Normal/Test/Test';
 import {
   BrowserRouter,
   Routes,
@@ -8,17 +8,17 @@ import {
 import Home from './Components/Body/Home/Home';
 import Addcss from './Components/Body/Addcss/Addcss';
 import Comments from './Components/Body/Comments/Comments';
-import Colors from './Components/Body/Colors/Colors';
-import Background from './Components/Body/Background/Background';
+import Colors from './Components/Body/Normal/Colors/Colors';
+import Background from './Components/Body/Normal/Background/Background';
 import Border from './Components/Body/Border/Border';
 import Mesure from './Components/Body/Mesure/Mesure';
-import Margins from './Components/Body/Margins/Margins';
-import Padding from './Components/Body/Padding/Padding';
-import HeightAndWidth from './Components/Body/HeightAndWidth/HeightAndWidth';
+import Margins from './Components/Body/Normal/Margins/Margins';
+import Padding from './Components/Body/Normal/Padding/Padding';
+import HeightAndWidth from './Components/Body/Normal/HeightAndWidth/HeightAndWidth';
 import Outline from './Components/Body/Outline/Outline';
 import Text from './Components/Body/Text/Text';
 import TextDecoration from './Components/Body/TextDecoration/TextDecoration';
-import TextSpaceing from './Components/Body/TextSpaceing/TextSpaceing';
+import TextSpaceing from './Components/Body/Normal/TextSpaceing/TextSpaceing';
 import Selector from './Components/Body/Selector/Selector';
 import Fonts from './Components/Body/Fonts/Fonts';
 import FontSize from './Components/Body/Fonts/FontSize';
@@ -29,6 +29,8 @@ import Tables from './Components/Body/Tables/Tables';
 import DropDown from './Components/Body/DropDown/DropDown';
 import Image from './Components/Body/Image/Image';
 import ImageSprites from './Components/Body/ImageSprites/ImageSprites';
+import RoundedCorner from './Components/Body/Advanced/RoundedCorner/RoundedCorner';
+import BorderImages from './Components/Body/Advanced/BorderImages/BorderImages';
 
 function App() {
   return (
@@ -41,6 +43,7 @@ function App() {
 
           <Route path="background"  element={<Background/>} />
           <Route path="border"  element={<Border/>} />
+          <Route path="borderimages"  element={<BorderImages/>} />
 
           <Route path="comment"  element={<Comments/>} />
           <Route path="colors"  element={<Colors/>} />
@@ -65,6 +68,8 @@ function App() {
           <Route path="outline"  element={<Outline/>} />
 
           <Route path="padding"  element={<Padding/>} />
+
+          <Route path="roundedcorners"  element={<RoundedCorner/>} />
 
           <Route path="selector"  element={<Selector/>} />
 

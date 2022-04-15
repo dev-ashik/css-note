@@ -1,7 +1,8 @@
 .opacityrunDiv {
     display: flex;
     color: black;
-    background-image: url("../../../images/weav.jpg");
+    background-image: url("../../../../images/weav.jpg");
+    /* background-image: url("../../../images/weav.jpg"); */
 }
 
 .firtDiv {
@@ -41,7 +42,8 @@
 }
 
 .backgroundImageRepeat {
-    background-image: url("../../../images/weav3.jpg");
+    background-image: url("../../../../images/weav3.jpg");
+    /* background-image: url("../../../images/weav3.jpg"); */
     height: 500px;
 }
 
@@ -93,7 +95,7 @@
 .bgr11 {
     height: 500px;
     background-color: #8b7878;
-    background-image: url('../../../images/weav3.jpg');
+    background-image: url('../../../../images/weav3.jpg');
     background-repeat: no-repeat;
     background-position: right top;
 }
