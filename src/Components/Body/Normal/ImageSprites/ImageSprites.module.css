@@ -1,19 +1,19 @@
 #yellowStar {
     height: 100px;
     width: 100px;
-    background: url(../../../images/stars.png) 0 0;
+    background: url(../../../../images/stars.png) 0 0;
 }
 
 #blueStar {
     height: 100px;
     width: 100px;
-    background: url(../../../images/stars.png) -100px 0;
+    background: url(../../../../images/stars.png) -100px 0;
 }
 
 #grayStar {
     height: 100px;
     width: 100px;
-    background: url(../../../images/stars.png) -200px 0;
+    background: url(../../../../images/stars.png) -200px 0;
 }
 
 .imageDiv {

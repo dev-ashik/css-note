@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Layout from '../../Layout/Layout';
+import Layout from '../../../Layout/Layout';
 import styles from './DropDown.module.css';
-import wave from '../../../images/weav.jpg';
+import wave from '../../../../images/weav.jpg';
 
 const DropDown = () => {
     const [basicDropdown, setBasicDropdown] = useState(false);

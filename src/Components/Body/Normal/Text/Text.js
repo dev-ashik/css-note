@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Layout from '../../Layout/Layout';
+import Layout from '../../../Layout/Layout';
 import styles from './Text.module.css';
 import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
-import background from '../../../images/background.jpg'
+import background from '../../../../images/background.jpg'
 
 const Text = () => {
     const [textColor, setTextColor] = useState(true);

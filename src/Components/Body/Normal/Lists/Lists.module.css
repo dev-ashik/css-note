@@ -40,7 +40,7 @@
 }
 
 .ulStyleImage {
-    list-style-image: url('../../../images/smileImoji.png');
+    list-style-image: url('../../../../images/smileImoji.png');
 }
 
 .positionOutSide {
@@ -75,5 +75,5 @@
 }
 
 .shorthandStyles {
-    list-style: square inside url('../../../images/smileImoji.png');
+    list-style: square inside url('../../../../images/smileImoji.png');
 }

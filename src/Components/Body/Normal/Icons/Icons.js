@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Layout from '../../Layout/Layout';
+import Layout from '../../../Layout/Layout';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from './Icons.module.css';
 

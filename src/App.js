@@ -5,32 +5,32 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Home from './Components/Body/Home/Home';
-import Addcss from './Components/Body/Addcss/Addcss';
-import Comments from './Components/Body/Comments/Comments';
 import Colors from './Components/Body/Normal/Colors/Colors';
 import Background from './Components/Body/Normal/Background/Background';
-import Border from './Components/Body/Border/Border';
-import Mesure from './Components/Body/Mesure/Mesure';
 import Margins from './Components/Body/Normal/Margins/Margins';
 import Padding from './Components/Body/Normal/Padding/Padding';
 import HeightAndWidth from './Components/Body/Normal/HeightAndWidth/HeightAndWidth';
-import Outline from './Components/Body/Outline/Outline';
-import Text from './Components/Body/Text/Text';
-import TextDecoration from './Components/Body/TextDecoration/TextDecoration';
 import TextSpaceing from './Components/Body/Normal/TextSpaceing/TextSpaceing';
-import Selector from './Components/Body/Selector/Selector';
-import Fonts from './Components/Body/Fonts/Fonts';
-import FontSize from './Components/Body/Fonts/FontSize';
-import Icons from './Components/Body/Icons/Icons';
-import Links from './Components/Body/Links/Links';
-import Lists from './Components/Body/Lists/Lists';
-import Tables from './Components/Body/Tables/Tables';
-import DropDown from './Components/Body/DropDown/DropDown';
-import Image from './Components/Body/Image/Image';
-import ImageSprites from './Components/Body/ImageSprites/ImageSprites';
 import RoundedCorner from './Components/Body/Advanced/RoundedCorner/RoundedCorner';
 import BorderImages from './Components/Body/Advanced/BorderImages/BorderImages';
+import Addcss from './Components/Body/Normal/Addcss/Addcss';
+import Comments from './Components/Body/Normal/Comments/Comments';
+import Home from './Components/Body/Normal/Home/Home';
+import Border from './Components/Body/Normal/Border/Border';
+import DropDown from './Components/Body/Normal/DropDown/DropDown';
+import Fonts from './Components/Body/Normal/Fonts/Fonts';
+import Icons from './Components/Body/Normal/Icons/Icons';
+import Image from './Components/Body/Normal/Image/Image';
+import ImageSprites from './Components/Body/Normal/ImageSprites/ImageSprites';
+import Links from './Components/Body/Normal/Links/Links';
+import Lists from './Components/Body/Normal/Lists/Lists';
+import Mesure from './Components/Body/Normal/Mesure/Mesure';
+import Outline from './Components/Body/Normal/Outline/Outline';
+import Selector from './Components/Body/Normal/Selector/Selector';
+import Text from './Components/Body/Normal/Text/Text';
+import TextDecoration from './Components/Body/Normal/TextDecoration/TextDecoration';
+import Tables from './Components/Body/Normal/Tables/Tables';
+import FontSize from './Components/Body/Normal/Fonts/FontSize';
 
 function App() {
   return (

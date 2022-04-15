@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Layout from '../../Layout/Layout';
+import Layout from '../../../Layout/Layout';
 import styles from './Fonts.module.css';
 
 const FontSize = () => {

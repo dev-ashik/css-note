@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Layout from '../../Layout/Layout';
+import Layout from '../../../Layout/Layout';
 import styles from './ImageSprites.module.css';
-import stars from '../../../images/stars.png';
-import transparent from '../../../images/transparent_image.png';
+import stars from '../../../../images/stars.png';
+import transparent from '../../../../images/transparent_image.png';
 import './Styles.css';
 
 const ImageSprites = () => {

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 import GitHubIcon from '@mui/icons-material/GitHub';
-import '../../../App.css';
-import Layout from '../../Layout/Layout';
+import '../../../../App.css';
+import Layout from '../../../Layout/Layout';
 
 const Selector = () => {
     const [classSelector, setClassSelector] = useState('none')
