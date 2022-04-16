@@ -1,0 +1,6 @@
+.firstSection {
+    border: 70px solid black;
+    height: 400px;
+    width: 400px;
+    border-image: url('../../../../images/borderImage.png') 33% round;
+}
