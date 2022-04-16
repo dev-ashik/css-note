@@ -207,6 +207,10 @@ const Sidebar = () => {
                 <BorderVerticalIcon className={styles.linkIcon}/>
                 <span className={styles.linkName}>Border Images</span>
             </Link>
+            <Link to="/advancedbackground" className={styles.link}>
+                <WallpaperIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Advanced Background</span>
+            </Link>
             {/* B end */}
             {/* C Advanced start */}
 

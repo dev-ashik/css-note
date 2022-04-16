@@ -31,6 +31,7 @@ import Text from './Components/Body/Normal/Text/Text';
 import TextDecoration from './Components/Body/Normal/TextDecoration/TextDecoration';
 import Tables from './Components/Body/Normal/Tables/Tables';
 import FontSize from './Components/Body/Normal/Fonts/FontSize';
+import AdvancedBackground from './Components/Body/Advanced/AdvancedBackground/AdvancedBackground';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path="addcss"  element={<Addcss/>} />
 
           <Route path="background"  element={<Background/>} />
+          <Route path="advancedbackground"  element={<AdvancedBackground/>} />
           <Route path="border"  element={<Border/>} />
           <Route path="borderimages"  element={<BorderImages/>} />
 
