@@ -1,0 +1,107 @@
+.multipleBackgroundImage {
+    min-height: 400px;
+    /* background-image: url('../../../../images/flower.png'), url('../../../../images/background_wall.jpg'); */
+    /* background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat; */
+
+    background: url('../../../../images/flower.png') right bottom no-repeat, url('../../../../images/background_wall.jpg') top left repeat;
+}
+
+
+.backgrundSize {
+    min-height: 400px;
+    background: url('../../../../images/flower.png') right bottom no-repeat;
+    background-size: 200px 300px;
+    border: 2px solid black;
+}
+
+.backgrundContain {
+    border: 2px solid black;
+    width: 150px;
+    min-height: 200px;
+    background: url('../../../../images/flower.png') no-repeat;
+    background-size: contain;
+    float: left;
+    margin-right: 10px;
+}
+
+.backgrundCover {
+    border: 2px solid black;
+    width: 150px;
+    min-height: 200px;
+    background: url('../../../../images/flower.png') no-repeat;
+    background-size: cover;
+    float: left;
+    margin-right: 10px;
+}
+.backgrundNormal {
+    border: 2px solid black;
+    width: 150px;
+    min-height: 200px;
+    background: url('../../../../images/flower.png') no-repeat;
+    float: left;
+}
+
+.floatClear {
+    content: '';
+    clear: both;
+    display: table;
+    margin-bottom: 20px;
+}
+
+
+.backgrundOriginBorder {
+    border: 10px dotted black;
+    width: 200px;
+    min-height: 200px;
+    background: url('../../../../images/flower.png') no-repeat;
+    margin-right: 10px;
+    background-origin: border-box;
+    float: left;
+    padding: 20px;
+    background-size: cover;
+}
+
+.backgrundOriginContent {
+    border: 10px dotted black;
+    width: 200px;
+    padding: 20px;
+    min-height: 200px;
+    background: url('../../../../images/flower.png') no-repeat;
+    float: left;
+    margin-right: 10px;
+    background-origin: content-box;
+    background-size: cover;
+}
+
+.backgrundClipPadding {
+    border: 10px dotted black;
+    width: 200px;
+    padding: 20px;
+    min-height: 200px;
+    background: blue;
+    float: left;
+    margin-right: 10px;
+    background-clip: padding-box;
+}
+
+.backgrundClipContant {
+    border: 10px dotted black;
+    width: 200px;
+    padding: 20px;
+    min-height: 200px;
+    background: blue;
+    float: left;
+    margin-right: 10px;
+    background-clip: content-box;
+}
+
+.backgrundClipNormal {
+    border: 10px dotted black;
+    width: 200px;
+    padding: 20px;
+    min-height: 200px;
+    background: blue;
+    float: left;
+    margin-right: 10px;
+}
