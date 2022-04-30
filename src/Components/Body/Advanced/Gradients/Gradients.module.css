@@ -1,0 +1,54 @@
+.div1 {
+    height: 200px;
+    background-image: linear-gradient(red, yellow);
+}
+
+.div2 {
+    height: 200px;
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+.div3 {
+    height: 200px;
+    background-image: linear-gradient(to right bottom, red, yellow);
+}
+
+.div4 {
+    height: 200px;
+    background-image: linear-gradient(150deg, red, yellow);
+}
+
+.div5 {
+    height: 200px;
+    background-image: linear-gradient(120deg, red, yellow, green);
+}
+
+.div6 {
+    height: 200px;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+.div7 {
+    height: 200px;
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+
+.div8 {
+    height: 200px;
+    background-image: radial-gradient(red, yellow, green);
+}
+
+.div9 {
+    height: 200px;
+    background-image: radial-gradient(red 15%, yellow 5%, green 60%);
+}
+
+.div10 {
+    height: 200px;
+    background-image: conic-gradient(red, yellow, green);
+}
+
+.div11 {
+    height: 200px;
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+}

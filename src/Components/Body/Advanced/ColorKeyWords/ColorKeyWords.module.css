@@ -1,0 +1,19 @@
+.currentColorBorder {
+    color: red;
+    border: 5px solid currentColor;
+    box-shadow: 0px 0px 15px currentColor;
+    padding: 15px;
+}
+
+.currentColorBackground_parents {
+    color: purple;
+}
+
+.currentColorBackground {
+    background-color:  currentColor;
+    padding: 15px;
+}
+
+.currentColorBackground p {
+    color: white;
+}

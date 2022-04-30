@@ -32,6 +32,8 @@ import TextDecoration from './Components/Body/Normal/TextDecoration/TextDecorati
 import Tables from './Components/Body/Normal/Tables/Tables';
 import FontSize from './Components/Body/Normal/Fonts/FontSize';
 import AdvancedBackground from './Components/Body/Advanced/AdvancedBackground/AdvancedBackground';
+import ColorKeyWords from './Components/Body/Advanced/ColorKeyWords/ColorKeyWords';
+import Gradients from './Components/Body/Advanced/Gradients/Gradients';
 
 function App() {
   return (
@@ -49,11 +51,14 @@ function App() {
 
           <Route path="comment"  element={<Comments/>} />
           <Route path="colors"  element={<Colors/>} />
+          <Route path="colorkeyword"  element={<ColorKeyWords/>} />
 
           <Route path="dropdown"  element={<DropDown/>} />
 
           <Route path="fonts"  element={<Fonts/>} />
           <Route path="fontsize"  element={<FontSize/>} />
+
+          <Route path="gradients"  element={<Gradients/>} />
 
           <Route path="heightandwidth"  element={<HeightAndWidth/>} />
 

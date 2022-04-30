@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Layout from '../../../Layout/Layout';
+import Transparent from '../../Advanced/ColorKeyWords/Transparent';
 import styles from './Background.module.css';
 
 const Background = () => {
@@ -475,6 +476,7 @@ const Background = () => {
                     }
 
             </section>
+            <Transparent/>
         </Layout>
     );
 };

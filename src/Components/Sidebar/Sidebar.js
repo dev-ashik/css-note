@@ -213,7 +213,10 @@ const Sidebar = () => {
             </Link>
             {/* B end */}
             {/* C Advanced start */}
-
+            <Link to="/colorkeyword" className={styles.link}>
+                <WallpaperIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Color Keyword</span>
+            </Link>    
             {/* C end */}
             {/* D Advanced start */}
 
@@ -225,7 +228,10 @@ const Sidebar = () => {
 
             {/* F end */}
             {/* G Advanced start */}
-
+            <Link to="/gradients" className={styles.link}>
+                <WallpaperIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Gradients</span>
+            </Link>
             {/* G end */}
             {/* H Advanced start */}
 
