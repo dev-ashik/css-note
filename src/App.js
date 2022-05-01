@@ -34,6 +34,7 @@ import FontSize from './Components/Body/Normal/Fonts/FontSize';
 import AdvancedBackground from './Components/Body/Advanced/AdvancedBackground/AdvancedBackground';
 import ColorKeyWords from './Components/Body/Advanced/ColorKeyWords/ColorKeyWords';
 import Gradients from './Components/Body/Advanced/Gradients/Gradients';
+import Shadow from './Components/Body/Advanced/Shadow/Shadow';
 
 function App() {
   return (
@@ -79,6 +80,7 @@ function App() {
           <Route path="roundedcorners"  element={<RoundedCorner/>} />
 
           <Route path="selector"  element={<Selector/>} />
+          <Route path="shadow"  element={<Shadow/>} />
 
           <Route path="text"  element={<Text/>} />
           <Route path="textdecoration"  element={<TextDecoration/>} />

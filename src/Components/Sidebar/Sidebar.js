@@ -270,7 +270,10 @@ const Sidebar = () => {
             </Link>
             {/* R end */}
             {/* S Advanced start */}
-
+            <Link to="/shadow" className={styles.link}>
+                <WallpaperIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Shadow Effects</span>
+            </Link>
             {/* S end */}
             {/* T Advanced start */}
 

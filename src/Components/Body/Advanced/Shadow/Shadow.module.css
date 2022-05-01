@@ -1,0 +1,138 @@
+.p_1 {
+    font-size: 25px;
+    text-shadow: 2px 2px;
+}
+
+.p_2 {
+    font-size: 25px;
+    text-shadow: 2px 2px red;
+}
+
+.p_3 {
+    font-size: 25px;
+    text-shadow: 2px 2px 10px red;
+}
+
+.p_4 {
+    font-size: 25px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.p_5 {
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.p_6 {
+    font-size: 25px;
+    color: blueviolet;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+
+.div_1 {
+    background-color: salmon;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    box-shadow: 10px 10px;
+}
+
+.div_2 {
+    background-color: salmon;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    box-shadow: 10px 10px blue;
+}
+
+.div_3 {
+    background-color: salmon;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px blue;
+}
+
+.div_4 {
+    background-color: salmon;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px 10px blue;
+}
+
+.div_5 {
+    background-color: salmon;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px blue inset;
+}
+
+.div_6 {
+    background-color: salmon;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+
+.div_7 {
+    background-color: salmon;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px blue, 10px 10px 5px red, 15px 15px 5px green;
+}
+
+.div_8 {
+    background-color: salmon;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px blue inset, 10px 10px red inset, 15px 15px green inset;
+}
+
+
+.card {
+    height: 250px;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img {
+    height: 70%;
+    width: 100%;
+}
+
+.cardBody {
+    padding: 20px;
+    text-align: center;
+}
