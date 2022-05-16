@@ -1,0 +1,74 @@
+.textOverflow_1 {
+    white-space: nowrap;
+    width: 200px;
+    border: 2px solid gray;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.textOverflow_2 {
+    /* white-space: nowrap; */
+    width: 200px;
+    height: 120px;
+    border: 2px solid gray;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.textOverflow_3 {
+    white-space: nowrap;
+    width: 200px;
+    /* height: 200px; */
+    border: 2px solid gray;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.textOverflow_4 {
+    white-space: nowrap;
+    width: 110px;
+    overflow: hidden;
+}
+
+.textOverflow_4:hover {
+    overflow: visible;
+}
+
+
+.wordWrapping_1 {
+    width: 11em;
+    border: medium solid gray;
+}
+
+.wordWrapping_2 {
+    width: 11em;
+    border: medium solid gray;
+    word-wrap: break-word;
+}
+
+.wordBreaking_1 {
+    width: 140px;
+    border: medium solid gray;
+    word-break: keep-all;
+}
+
+.wordBreaking_2 {
+    width: 140px;
+    border: medium solid gray;
+    word-break: break-all;
+}
+
+.writingMode_1 {
+    writing-mode: horizontal-tb;
+}
+
+.writingMode_2 span {
+    writing-mode: vertical-rl;
+}
+
+.writingMode_3 {
+    writing-mode: vertical-rl;
+}
+
+

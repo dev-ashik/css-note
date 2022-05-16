@@ -276,7 +276,26 @@ const Sidebar = () => {
             </Link>
             {/* S end */}
             {/* T Advanced start */}
-
+            <Link to="/texteffects" className={styles.link}>
+                <WallpaperIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Text Effects</span>
+            </Link>
+            <Link to="/transform2d" className={styles.link}>
+                <WallpaperIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>2D Transforms</span>
+            </Link>
+            <Link to="/transform3d" className={styles.link}>
+                <WallpaperIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>3D Transforms</span>
+            </Link>
+            <Link to="/transitions" className={styles.link}>
+                <WallpaperIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Transitions</span>
+            </Link>
+            <Link to="/tooltip" className={styles.link}>
+                <WallpaperIcon className={styles.linkIcon}/>
+                <span className={styles.linkName}>Tooltips</span>
+            </Link>
             {/* T end */}
             {/* U Advanced start */}
 

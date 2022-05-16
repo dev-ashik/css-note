@@ -35,6 +35,11 @@ import AdvancedBackground from './Components/Body/Advanced/AdvancedBackground/Ad
 import ColorKeyWords from './Components/Body/Advanced/ColorKeyWords/ColorKeyWords';
 import Gradients from './Components/Body/Advanced/Gradients/Gradients';
 import Shadow from './Components/Body/Advanced/Shadow/Shadow';
+import TextEffects from './Components/Body/Advanced/TextEffects/TextEffects';
+import Transforms2D from './Components/Body/Advanced/Transforms2D/Transforms2D';
+import Transforms3D from './Components/Body/Advanced/Transforms3D/Transforms3D';
+import Transitions from './Components/Body/Advanced/Transitions/Transitions';
+import Tooltip from './Components/Body/Advanced/Tooltip/Tooltip';
 
 function App() {
   return (
@@ -86,6 +91,11 @@ function App() {
           <Route path="textdecoration"  element={<TextDecoration/>} />
           <Route path="textspaceing"  element={<TextSpaceing/>} />
           <Route path="tables"  element={<Tables/>} />
+          <Route path="texteffects"  element={<TextEffects/>} />
+          <Route path="transform2d"  element={<Transforms2D/>} />
+          <Route path="transform3d"  element={<Transforms3D/>} />
+          <Route path="transitions"  element={<Transitions/>} />
+          <Route path="tooltip"  element={<Tooltip/>} />
           
           <Route path="test"  element={<Test/>} />
         </Routes>

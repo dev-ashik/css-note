@@ -1,0 +1,67 @@
+.transitions_1 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: green;
+    transition: width 2s;
+}
+
+.transitions_1:hover {
+    width: 300px;
+}
+
+
+.transitions_2 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: green;
+    transition: width 2s, height 4s;
+}
+.transitions_2:hover {
+    width: 300px;
+    height: 300px;
+}
+
+
+.TransitionTransformation_1 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: green;
+    text-align: center;
+    transition: transform 2s;
+}
+
+.TransitionTransformation_1:hover {
+    transform: rotate(180deg);
+}
+
+.TransitionTransformation_2 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: green;
+    text-align: center;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.TransitionTransformation_2:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+
+
+.transitionShorhand_1 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: green;
+    text-align: center;
+    transition: width 2s linear 1s;
+}
+
+.transitionShorhand_1:hover {
+    width: 200px;
+}

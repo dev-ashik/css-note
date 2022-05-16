@@ -1,0 +1,34 @@
+.rotateX_1 {
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    background-color: green;
+    text-align: center;
+}
+
+.rotateX_2 {
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    background-color: green;
+    text-align: center;
+    transform: rotateX(150deg);
+}
+
+.rotateX_3 {
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    background-color: green;
+    text-align: center;
+    transform: rotateY(150deg);
+}
+
+.rotateX_4 {
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    background-color: green;
+    text-align: center;
+    transform: rotateZ(90deg);
+}

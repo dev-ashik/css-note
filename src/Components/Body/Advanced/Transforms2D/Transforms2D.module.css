@@ -1,0 +1,147 @@
+.translate_1 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: medium solid gray;
+}
+
+.translate_1:hover {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: medium solid gray;
+    transform: translate(10px, 10px);
+}
+
+.rotate_1 {
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+    background-color: green;
+    transform: rotate(30deg);
+    margin-bottom: 90px;
+}
+.rotate_2 {
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+    background-color: green;
+    transform: rotate(-30deg);
+}
+
+
+.scale_1 {
+    height: 150px;
+    width: 150px;
+    margin: 90px;
+    background-color: green;
+    text-align: center;
+}
+
+.scale_1:hover {
+    transform: scale(2, 2);
+}
+
+.scale_2 {
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+    background-color: green;
+    text-align: center;
+}
+
+.scale_2:hover {
+    transform: scale(0.5, 0.5);
+}
+
+.scale_3 {
+    height: 150px;
+    width: 150px;
+    margin: 90px;
+    background-color: green;
+    text-align: center;
+}
+
+.scale_3:hover {
+    transform: scaleX(2);
+}
+
+.scale_4 {
+    height: 150px;
+    width: 150px;
+    margin: 90px;
+    background-color: green;
+    text-align: center;
+}
+
+.scale_4:hover {
+    transform: scaleY(2);
+}
+
+.skew_1 {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: green;
+    text-align: center;
+}
+
+.skew_2 {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: green;
+    text-align: center;
+    transform: skew(20deg, 10deg);
+}
+.skew_3 {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: green;
+    text-align: center;
+}
+
+.skew_4 {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: green;
+    text-align: center;
+    transform: skewX(20deg);
+}
+
+.skew_5 {
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    background-color: green;
+    text-align: center;
+}
+
+.skew_6 {
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    background-color: green;
+    text-align: center;
+    transform: skewY(20deg);
+}
+
+
+.matrix_1 {
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    background-color: green;
+    text-align: center;
+}
+
+.matrix_2 {
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    background-color: green;
+    text-align: center;
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
